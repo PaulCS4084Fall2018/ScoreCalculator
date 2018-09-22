@@ -1,4 +1,29 @@
 <resources>
     <string name="app_name">Score Calculator</string>
+
+
+
+    <string name="colour_points"> %d colour points  </string>
+
+    <string name="Three_fixes"> 3 Fixes</string>
+    <string name="Two_fixes"> 2 Fixes</string>
+    <string name="One_fix"> 1 Fix</string>
+    <string name="Zero_fixes"> 0 Fixes</string>
+
     <string name="near_ball_points"> %d </string>
+
+
+
+    <string name="wb_failure"> WB Failure</string>
+    <string name="wb_success"> WB Success</string>
+
+
+
+    <string name="Colour_identification"> Colour identification </string>
+
+    <string name="White_Black_mission"> White Black (WB) mission: </string>
+    <string name="Wb_points"> wb points </string>
+
+    <string name="total_score"> %d points </string>
+
 </resources>
