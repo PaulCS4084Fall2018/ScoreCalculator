@@ -6,6 +6,7 @@
     android:layout_height="match_parent"
     tools:context=".MainActivity">
 
+    <!--Colour indentification heading -->
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
@@ -13,6 +14,7 @@
 
         />
 
+    <!--Add 4 fixes buttons-->
     <LinearLayout
         android:orientation="horizontal"
         android:layout_margin="8dp"
@@ -51,7 +53,7 @@
 
     </LinearLayout>
 
-
+<!--Distances from cones heading-->
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
@@ -65,22 +67,25 @@
     android:layout_height="wrap_content"
     android:layout_marginTop="100dp"
     >
-
+<!--Distance and Points headings-->
     <TableRow
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:background="@color/background" >
 
+        <!--Blank heading -->
         <TextView android:text=""
         android:layout_height="wrap_content"
         android:layout_width="0dp"
         android:layout_weight="1" />
 
+        <!--Distance heading-->
         <TextView android:text="Distance"
          android:layout_height="wrap_content"
          android:layout_width="0dp"
          android:layout_weight="1"/>
 
+        <!--Points heading-->
         <TextView android:text="Points"
          android:layout_height="wrap_content"
          android:layout_width="0dp"
@@ -88,7 +93,7 @@
 
     </TableRow>
 
-
+<!--Near ball row-->
     <TableRow
         android:layout_width="wrap_content"
         android:layout_height="wrap_content">
@@ -114,7 +119,7 @@
 
     </TableRow>
 
-
+<!--Far ball row-->
     <TableRow
         android:layout_width="wrap_content"
         android:layout_height="wrap_content">
@@ -139,6 +144,7 @@
 
     </TableRow>
 
+    <!--Robot home row-->
     <TableRow
         android:layout_width="wrap_content"
         android:layout_height="wrap_content">
@@ -160,6 +166,44 @@
             android:layout_height="wrap_content"
             android:layout_width="0dp"
             android:layout_weight="1" />
+
+
+    </TableRow>
+
+<!--Update button row (has 3 blank TextViews and one button-->
+    <TableRow
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+
+<!--Add 3 textview spaces in order to push button to RHS-->
+
+        <TextView android:text=""
+            android:layout_height="wrap_content"
+            android:layout_width="0dp"
+            android:layout_weight="1" />
+
+        <TextView android:text=""
+            android:layout_height="wrap_content"
+            android:layout_width="0dp"
+            android:layout_weight="1" />
+
+        <TextView android:text=""
+            android:layout_height="wrap_content"
+            android:layout_width="0dp"
+            android:layout_weight="1" />
+
+<!--Add the 'Update' button-->
+        <Button
+            android:layout_width="10dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:layout_marginTop="10dp"
+            android:text="Update"
+            android:layout_alignParentRight="true"
+            />
+
+
 
 
     </TableRow>
