@@ -28,9 +28,9 @@
 
     <string name="White_Black_mission"> White Black (WB) mission: </string>
 
-    <string name="Wb_points"> D </string>
+    <string name="Wb_points"> %d WB Points</string>
 
-    <string name="total_score"> E </string>
+    <string name="total_score"> %d Points </string>
 
 
     <string name="reset"> Reset </string>

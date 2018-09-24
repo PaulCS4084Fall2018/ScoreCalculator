@@ -253,11 +253,11 @@
             android:text="@string/White_Black_mission"/>
 
         <TextView
+            android:id="@+id/white_black_points"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_alignParentRight="true"
             android:text="@string/Wb_points" />
-
 
 
     </RelativeLayout>
@@ -273,7 +273,7 @@
 
 
     <Button
-        android:id="@+id/wb_points"
+        android:id="@+id/wb_fail"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
         android:layout_weight="1"
@@ -283,6 +283,7 @@
         />
 
     <Button
+        android:id="@+id/wb_success"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
         android:layout_weight="1"
