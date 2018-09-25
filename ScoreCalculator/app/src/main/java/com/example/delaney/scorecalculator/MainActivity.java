@@ -56,7 +56,7 @@ public class MainActivity extends AppCompatActivity {
         //'col_points' is the id of our colour points result in activity_main TextView, so
         // now we have a connection to the object (who's id is col_points)
         mColourPointsView = findViewById(R.id.col_points);  //col_points on Line 18 of activity_main.xml
-
+        mColourPointsView.setText("0 WB Points");
 
 
 
@@ -93,6 +93,7 @@ public class MainActivity extends AppCompatActivity {
 
                 colourPoints = 0;
                 updateColour();
+                totalPoints(); // Call totalPoints method to update total points
 
 
             }
@@ -107,6 +108,7 @@ public class MainActivity extends AppCompatActivity {
             public void onClick(View view) {
                 colourPoints = 25;
                 updateColour();
+                totalPoints(); // Call totalPoints method to update total points
 
             }
         });
@@ -118,6 +120,7 @@ public class MainActivity extends AppCompatActivity {
 
                 colourPoints = 75;
                 updateColour();
+                totalPoints(); // Call totalPoints method to update total points
 
             }
         });
@@ -241,7 +244,7 @@ else mNearBallPointsTextView.setText("0");
 
 
 //Far Ball calculation
-int farBallDistance = Integer.parseInt(mNearBallDistanceEditText.getText().toString());
+int farBallDistance = Integer.parseInt(mFarBallDistanceEditText.getText().toString());
 
 if (farBallDistance<=5.0)
     mFarBallPointsTextView.setText("220");
